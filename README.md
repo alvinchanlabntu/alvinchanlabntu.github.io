@@ -1,3 +1,5 @@
+Visit **[alvinchanlabntu.github.io](https://alvinchanlabntu.github.io)** 🚀
+
 # Alvin Chan Lab Website
 
 Official website source for the Alvin Chan Lab at Nanyang Technological University.
