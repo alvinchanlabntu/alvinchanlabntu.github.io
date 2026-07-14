@@ -1,0 +1,44 @@
+[data-dark=false] {
+  --primary: #0f766e;
+  --secondary: #d97706;
+  --text: #111827;
+  --background: #ffffff;
+  --background-alt: #f8fafc;
+  --light-gray: #dbe4e6;
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --overlay: #00000020;
+}
+
+[data-dark=true] {
+  --primary: #5eead4;
+  --secondary: #fbbf24;
+  --text: #ffffff;
+  --background: #111827;
+  --background-alt: #172033;
+  --light-gray: #334155;
+  --gray: #94a3b8;
+  --dark-gray: #cbd5e1;
+  --overlay: #ffffff10;
+}
+
+:root {
+  --title: "Barlow", sans-serif;
+  --heading: "Barlow", sans-serif;
+  --body: "Barlow", sans-serif;
+  --code: "Roboto Mono", monospace;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
+  --compact: 1.5;
+  --rounded: 3px;
+  --shadow: 0 0 10px 0 var(--overlay);
+  --transition: 0.2s ease;
+}
+
+/*# sourceMappingURL=-theme.css.map */
