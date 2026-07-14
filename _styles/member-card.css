@@ -37,11 +37,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  max-width: 100%;
-  margin-top: 7px;
-  font-size: 0.85rem;
-  overflow-wrap: anywhere;
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  font-size: 0.95rem;
 }
 
 .member-card-email .icon {
