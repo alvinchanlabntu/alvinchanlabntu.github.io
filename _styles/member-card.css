@@ -58,6 +58,7 @@ a.member-card-name {
 @media (max-width: 500px) {
   .member-card-wrapper {
     display: flex;
+    justify-content: center;
     margin: 24px auto 40px;
   }
   .member-card {
