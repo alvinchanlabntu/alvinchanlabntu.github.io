@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-scroll" %}Publications
 
-Selected work from the lab across multimodal learning, language models, molecular generation, and AI-enabled therapeutic discovery.
-
 {% include section.html %}
 
 {% include search-box.html %}

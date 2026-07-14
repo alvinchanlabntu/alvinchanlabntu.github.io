@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our AI and Wet Lab teams work together across machine learning, nanomedicine, and experimental science.
-
 {% include section.html %}
 
 ## Principal Investigator
