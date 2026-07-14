@@ -2,6 +2,7 @@
 name: "Joey Tan Xin Yi"
 image: "images/members/joey-tan-xin-yi.jpg"
 role: "phd"
+order: 4
 description: "PhD Student | AI Team"
 team: "AI Team"
 homepage: "https://www.linkedin.com/in/joeytxy/"

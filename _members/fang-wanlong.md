@@ -2,6 +2,7 @@
 name: "Fang Wanlong"
 image: "images/members/fang-wanlong.jpg"
 role: "phd"
+order: 1
 description: "PhD Student | AI Team"
 team: "AI Team"
 homepage: "https://scholar.google.com/citations?user=U1foc64AAAAJ&hl=zh-CN"

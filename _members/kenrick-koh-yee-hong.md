@@ -2,6 +2,7 @@
 name: "Kenrick Koh Yee Hong"
 image: "images/members/kenrick-koh-yee-hong.jpg"
 role: "postdoc"
+order: 2
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://www.linkedin.com/in/kenrick-koh"

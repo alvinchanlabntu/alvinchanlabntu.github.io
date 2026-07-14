@@ -2,6 +2,7 @@
 name: "Zhang Tianle"
 image: "images/members/zhang-tianle.jpg"
 role: "phd"
+order: 2
 description: "PhD Student | AI Team"
 team: "AI Team"
 homepage: "https://ztlmememe.github.io/"

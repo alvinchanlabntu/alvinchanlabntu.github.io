@@ -2,6 +2,7 @@
 name: "Mandy Lim"
 image: "images/members/mandy-lim.jpeg"
 role: "postdoc"
+order: 1
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://www.linkedin.com/in/mandy-yu-theng-lim/"

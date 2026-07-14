@@ -2,6 +2,7 @@
 name: "Zhu Jiaqi"
 image: "images/members/zhu-jiaqi.jpg"
 role: "postdoc"
+order: 5
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://scholar.google.com/citations?user=-b5HkBIAAAAJ&hl=en&authuser=1"

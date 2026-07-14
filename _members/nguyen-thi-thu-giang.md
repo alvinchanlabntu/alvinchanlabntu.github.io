@@ -2,6 +2,7 @@
 name: "Nguyen Thi Thu Giang"
 image: "images/members/nguyen-thi-thu-giang.jpg"
 role: "phd"
+order: 7
 description: "PhD Student | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"

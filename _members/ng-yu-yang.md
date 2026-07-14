@@ -2,6 +2,7 @@
 name: "Ng Yu Yang"
 image: "images/members/ng-yu-yang.jpg"
 role: "postdoc"
+order: 4
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
 affiliation: "Nanyang Technological University"

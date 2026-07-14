@@ -19,13 +19,13 @@ Our AI and Wet Lab teams work together across machine learning, nanomedicine, an
 
 ## Postdoctoral Researchers
 
-{% include list.html data="members" component="member-card" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="member-card" filter="role == 'postdoc'" sort="order" %}
 
 {% include section.html %}
 
 ## PhD Students
 
-{% include list.html data="members" component="member-card" filter="role == 'phd'" %}
+{% include list.html data="members" component="member-card" filter="role == 'phd'" sort="order" %}
 
 {% include section.html %}
 

@@ -2,6 +2,7 @@
 name: "Matthias Koh Yong An"
 image: "images/members/matthias-koh-yong-an.jpeg"
 role: "phd"
+order: 3
 description: "PhD Student | AI Team"
 team: "AI Team"
 homepage: "https://www.linkedin.com/in/matthias-koh-24a110212/"

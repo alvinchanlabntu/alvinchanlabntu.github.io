@@ -2,6 +2,7 @@
 name: "Tang Ying-Peng"
 image: "images/members/tang-ying-peng.jpg"
 role: "postdoc"
+order: 3
 description: "Postdoctoral Researcher | AI Team"
 team: "AI Team"
 homepage: "https://tangyp.cn/"

@@ -2,6 +2,7 @@
 name: "Weerin \"Mata\" Ngochanthra"
 image: "images/members/weerin-mata-ngochanthra.png"
 role: "phd"
+order: 6
 description: "PhD Student | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://www.linkedin.com/in/wmngochanthra/"

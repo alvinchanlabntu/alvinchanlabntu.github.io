@@ -2,6 +2,7 @@
 name: "Huu Tuong Tu"
 image: "images/members/huu-tuong-tu.jpg"
 role: "phd"
+order: 8
 description: "PhD Student | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"

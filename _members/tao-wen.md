@@ -2,6 +2,7 @@
 name: "Tao Wen"
 image: "images/members/tao-wen.jpg"
 role: "phd"
+order: 5
 description: "PhD Student | AI Team"
 team: "AI Team"
 homepage: "https://wentao228.github.io/"
