@@ -1,0 +1,89 @@
+# site properties and page defaults
+title: Alvin Chan Lab
+subtitle: AI for Therapeutic Discovery and Precision Medicine
+description: We develop generative and multimodal AI systems for therapeutic discovery, nanomedicine, and precision healthcare at Nanyang Technological University.
+header: images/publications/designing-lipid-nanoparticles.png
+footer: images/publications/in-context-representation-learning.png
+header-dark: true
+proofer: false
+
+url: https://alvinchanlabntu.github.io
+baseurl: ""
+repository: alvinchanlabntu/alvinchanlabntu.github.io
+
+# site social media and other links
+links:
+  email: guoweialvin.chan@ntu.edu.sg
+  google-scholar: SP4eIUYAAAAJ
+  github: alvinchanlabntu
+  home-page: https://www.alvinchan.io/
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+  - Lab Member Information Form (Responses).xlsx
+  - publication_form_fields.xlsx
+  - Profile Photo (File responses)
+  - Profile Photo (File responses)-20260713T123018Z-2-001.zip
+  - figures
+  - papers
+  - tools
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js

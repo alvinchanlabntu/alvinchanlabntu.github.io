@@ -1,0 +1,196 @@
+# DO NOT EDIT, GENERATED FROM _data/sources.yaml
+
+-
+  id: "doi:10.18653/v1/2026.acl-long.1061"
+  title: "Automated Creativity Evaluation of Language Models Across Open-Ended Tasks"
+  authors:
+    - "Tan Min Sen"
+    - "Zachary Choy Kit Chun"
+    - "Syed Ali Redha Alsagoff"
+    - "Nadya Yuki Wangsajaya"
+    - "Banerjee Mohor"
+    - "Swaagat Bikash Saikia"
+    - "**Alvin Chan**"
+  publisher: "The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+  date: "2026-07-01"
+  link: "https://aclanthology.org/2026.acl-long.1061/"
+  type: "paper"
+  description: "Large language models (LLMs) have achieved remarkable progress in language understanding, reasoning, and generation, sparking growing interest in their creative potential. Realizing this potential requires systematic and scalable methods for evaluating creativity across diverse tasks."
+  abstract: "Large language models (LLMs) have achieved remarkable progress in language understanding, reasoning, and generation, sparking growing interest in their creative potential. Realizing this potential requires systematic and scalable methods for evaluating creativity across diverse tasks. However, most existing creativity metrics are tightly coupled to specific tasks, embedding domain assumptions into the evaluation process, and limiting scalability and generality. To address this gap, we introduce an automated, domain-agnostic framework for quantifying LLM creativity across open-ended tasks. Our approach separates the measurement apparatus from the creative task itself, enabling scalable, task-agnostic assessment. Divergent creativity is measured using semantic entropy, a reference-free and robust metric for novelty and diversity, validated against human annotations, LLM-based novelty judgments and baseline diversity measures. Convergent creativity is assessed via a novel retrieval-based multi-agent judge framework that delivers context-sensitive evaluation of task fulfilment with over 60% improved efficiency. We validate our framework in three qualitatively distinct domains: problem-solving (MacGyver), research ideation (HypoGen), and creative writing (BookMIA), using a broad suite of LLMs. Empirical results show that our framework reliably captures key facets of creativity, including novelty, diversity, and task fulfilment, and reveal how model properties, such as size, temperature, recency, and reasoning, impact creative performance. Our work establishes a reproducible and generalizable standard for automated LLM creativity evaluation, paving the way for scalable benchmarking and accelerating progress in creative AI."
+  image: "images/publications/automated-creativity-evaluation.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://aclanthology.org/2026.acl-long.1061/"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/automated-creativity-evaluation.pdf"
+  tags:
+    - "creativity"
+    - "language models"
+    - "evaluation"
+-
+  title: "Towards Understanding Modality Interaction in Multimodal Language Models via Partial Information Decomposition"
+  authors:
+    - "**Wanlong Fang**"
+    - "**Tianle Zhang**"
+    - "**Wen Tao**"
+    - "**Alvin Chan**"
+  publisher: "Forty-Third International Conference on Machine Learning (ICML 2026)"
+  date: "2026-07-01"
+  link: "https://icml.cc/virtual/2026/poster/60550"
+  type: "paper"
+  description: "Understanding modality interaction in multimodal large language models (MLLMs) is central to reliable deployment. We introduce Partial Information Decomposition (PID) as a decision-level framework that separates unique, redundant, and synergistic contributions of sensory and linguistic inputs, beyond representation alignment and outcome-based evaluation."
+  abstract: "Understanding modality interaction in multimodal large language models (MLLMs) is central to reliable deployment. We introduce Partial Information Decomposition (PID) as a decision-level framework that separates unique, redundant, and synergistic contributions of sensory and linguistic inputs, beyond representation alignment and outcome-based evaluation. Across vision--language benchmarks, PID reveals recurring modality-use profiles: reasoning and grounding-oriented tasks tend to exhibit high synergy, whereas expert and knowledge-oriented tasks show stronger language-unique reliance. These profiles generalize across model families and predict sensitivity to modality-level interventions. We further extend PID to tri-modal systems with Sensory PID, treating language as a control variable to decompose video--audio information gain. Applied to omni-modal models, Sensory PID reveals a sensory synergy bottleneck dominated by visual information even on audio--visual fusion tasks. Finally, PID-guided reweighting provides initial evidence for improving multimodal reasoning and grounding performance."
+  image: "images/publications/partial-information-decomposition.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://icml.cc/virtual/2026/poster/60550"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/partial-information-decomposition.pdf"
+  tags:
+    - "multimodal AI"
+    - "interpretability"
+    - "information theory"
+-
+  id: "doi:10.1609/aaai.v40i25.39248"
+  title: "To Align or Not to Align: Strategic Multimodal Representation Alignment for Optimal Performance"
+  authors:
+    - "**Wanlong Fang**"
+    - "**Tianle Zhang**"
+    - "**Alvin Chan**"
+  publisher: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2026)"
+  date: "2026-03-14"
+  link: "https://ojs.aaai.org/index.php/AAAI/article/view/39248"
+  type: "paper"
+  description: "Multimodal learning often relies on aligning representations across modalities to enable effective information integration - an approach traditionally assumed to be universally beneficial."
+  abstract: "Multimodal learning often relies on aligning representations across modalities to enable effective information integration - an approach traditionally assumed to be universally beneficial. However, prior research has primarily taken an observational approach, examining naturally occurring alignment in multimodal data and exploring its correlation with model performance, without systematically studying the direct effects of explicitly enforced alignment between representations of different modalities. In this work, we investigate how explicit alignment influences both model performance and representation alignment under different modality-specific information structures. Specifically, we introduce a controllable contrastive learning module that enables precise manipulation of alignment strength during training, allowing us to explore when explicit alignment improves or hinders performance. Our results on synthetic and real datasets under different data characteristics show that the impact of explicit alignment on the performance of unimodal models is related to the characteristics of the data: the optimal level of alignment depends on the amount of redundancy between the different modalities. We can find an optimal alignment strength that balances modality-specific signals and shared redundancy in the mixed information distributions. This work can help practitioners on when and how to enforce alignment for optimal unimodal encoder performance."
+  image: "images/publications/strategic-multimodal-alignment.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://ojs.aaai.org/index.php/AAAI/article/view/39248"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/strategic-multimodal-alignment.pdf"
+  tags:
+    - "multimodal learning"
+    - "representation alignment"
+    - "machine learning"
+-
+  title: "Can LLMs Reason Over Non-Text Modalities in a Training-Free Manner? A Case Study with In-Context Representation Learning"
+  authors:
+    - "**Tianle Zhang**"
+    - "**Wanlong Fang**"
+    - "Jonathan Woo"
+    - "Paridhi Latawa"
+    - "Deepak Subramanian"
+    - "**Alvin Chan**"
+  publisher: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)"
+  date: "2025-12-01"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0904c7edde20d7134a77fc7f9cd86ea2-Abstract-Conference.html"
+  type: "paper"
+  description: "The remarkable performance of Large Language Models (LLMs) can be enhanced with test-time computation, which relies on external tools and even other deep learning models. However, existing approaches for integrating non-text modality representations into LLMs typically require additional costly supervised training, restricting on-the-fly adaptation to new domains and modalities."
+  abstract: "The remarkable performance of Large Language Models (LLMs) can be enhanced with test-time computation, which relies on external tools and even other deep learning models. However, existing approaches for integrating non-text modality representations into LLMs typically require additional costly supervised training, restricting on-the-fly adaptation to new domains and modalities. In this work, we explore the feasibility of integrating representations from non-text foundational models (FMs) into text-based LLMs in a training-free manner. We propose In-Context Representation Learning (ICRL) as a proof-of-concept to allow LLMs to adaptively utilize non-text modality representations with few-shot learning. Unlike traditional in-context learning, which incorporates text-label pairs, ICRL replaces text inputs with FM representations, enabling the LLM to perform multi-modal inference without fine-tuning. We evaluate ICRL on a suite of tasks in the molecular domain, investigating three core research questions: (i) how to map FM representations into LLMs in a training-free manner, (ii) what factors influence ICRL performance, and (iii) what mechanisms underlie the effectiveness of ICRL. To the best of our knowledge, ICRL is the first training-free framework for integrating non-text modality representations into text-based LLMs, presenting a promising direction for adaptable, multi-modal generalization."
+  image: "images/publications/in-context-representation-learning.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0904c7edde20d7134a77fc7f9cd86ea2-Abstract-Conference.html"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/in-context-representation-learning.pdf"
+  tags:
+    - "multimodal AI"
+    - "in-context learning"
+    - "molecular AI"
+-
+  id: "doi:10.18653/v1/2025.emnlp-main.1350"
+  title: "How to Make Large Language Models Generate 100% Valid Molecules?"
+  authors:
+    - "**Wen Tao**"
+    - "Jing Tang"
+    - "**Alvin Chan**"
+    - "Bryan Hooi"
+    - "Baolong Bi"
+    - "Nanyun Peng"
+    - "Yuansheng Liu"
+    - "Yiwei Wang"
+  publisher: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)"
+  date: "2025-11-01"
+  link: "https://aclanthology.org/2025.emnlp-main.1350/"
+  type: "paper"
+  description: "Molecule generation is key to drug discovery and materials science, enabling the design of novel compounds with specific properties. Large language models (LLMs) can learn to perform a wide range of tasks from just a few examples. However, generating valid molecules using representations like SMILES is challenging for LLMs in few-shot settings. In this work, we explore how LLMs can generate 100% valid molecules."
+  abstract: "Molecule generation is key to drug discovery and materials science, enabling the design of novel compounds with specific properties. Large language models (LLMs) can learn to perform a wide range of tasks from just a few examples. However, generating valid molecules using representations like SMILES is challenging for LLMs in few-shot settings. In this work, we explore how LLMs can generate 100% valid molecules. We evaluate whether LLMs can use SELFIES, a representation where every string corresponds to a valid molecule, for valid molecule generation but find that LLMs perform worse with SELFIES than with SMILES. We then examine LLMs' ability to correct invalid SMILES and find their capacity limited. Finally, we introduce SmiSelf, a cross-chemical language framework for invalid SMILES correction. SmiSelf converts invalid SMILES to SELFIES using grammatical rules, leveraging SELFIES' mechanisms to correct the invalid SMILES. Experiments show that SmiSelf ensures 100% validity while preserving molecular characteristics and maintaining or even enhancing performance on other metrics. SmiSelf helps expand LLMs' practical applications in biomedicine and is compatible with all SMILES-based generative models. Code is available at https://github.com/wentao228/SmiSelf."
+  image: "images/publications/smiself-valid-molecules.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://aclanthology.org/2025.emnlp-main.1350/"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/smiself-valid-molecules.pdf"
+  tags:
+    - "molecular generation"
+    - "language models"
+    - "cheminformatics"
+-
+  id: "doi:10.1038/s41565-025-01975-4"
+  title: "Designing lipid nanoparticles using a transformer-based neural network"
+  authors:
+    - "**Alvin Chan**"
+    - "Ameya R. Kirtane"
+    - "Qing Rui Qu"
+    - "Xisha Huang"
+    - "Jonathan Woo"
+    - "Deepak A. Subramanian"
+    - "Rajib Dey"
+    - "Rika Semalty"
+    - "Joshua D. Bernstock"
+    - "Taksim Ahmed"
+    - "Rowan Honeywell"
+    - "Charles Hanhurst"
+    - "Isaac Diaz Becdach"
+    - "Leah S. Prizant"
+    - "Ashley K. Brown"
+    - "Hao Song"
+    - "Justin Law Cobb"
+    - "Louis B. DeRidder"
+    - "Bruna Santos"
+    - "Miguel Jimenez"
+    - "Michelle Sun"
+    - "Yuebin Huang"
+    - "Ceara Byrne"
+    - "Giovanni Traverso"
+  publisher: "Nature Nanotechnology"
+  date: "2025-08-14"
+  link: "https://www.nature.com/articles/s41565-025-01975-4"
+  type: "paper"
+  description: "The RNA medicine revolution has been spurred by lipid nanoparticles (LNPs). The effectiveness of an LNP is determined by its lipid components and their ratios; however, experimental optimization is laborious and does not explore the full design space."
+  abstract: "The RNA medicine revolution has been spurred by lipid nanoparticles (LNPs). The effectiveness of an LNP is determined by its lipid components and their ratios; however, experimental optimization is laborious and does not explore the full design space. Computational approaches such as deep learning can be greatly beneficial, but the composite nature of LNPs limits the effectiveness of existing single molecule-based algorithms to LNPs. Addressing this, our approach integrates the multi-component and multimodal features of composite formulations such as LNPs to predict their performance in an end-to-end manner. Here we generate one of the largest LNP datasets (LANCE) by varying LNP formulations to train our deep learning model, COMET. This transformer-based neural network not only accurately predicts the efficacy of LNPs but is adaptable to non-canonical LNP formulations such as those with two ionizable lipids and polymeric materials. Furthermore, COMET can predict LNP performance in a cell line outside of LANCE and predict LNP stability during lyophilization using only small training datasets. Experimental validation showed that our approach can identify LNPs that exhibit strong protein expression in vitro and in vivo, promising accelerated development of nucleic acid therapies with extensive potential across therapeutic and manufacturing applications."
+  image: "images/publications/designing-lipid-nanoparticles.png"
+  buttons:
+    -
+      type: "website"
+      text: "Publication"
+      link: "https://www.nature.com/articles/s41565-025-01975-4"
+    -
+      type: "paper"
+      text: "PDF"
+      link: "/files/publications/designing-lipid-nanoparticles.pdf"
+  tags:
+    - "nanomedicine"
+    - "lipid nanoparticles"
+    - "therapeutic discovery"

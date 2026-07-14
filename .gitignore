@@ -1,0 +1,22 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+debug.log
+__pycache__
+.DS_Store
+.~*.xlsx
+.env*
+package.json
+package-lock.json
+yarn.lock
+node_modules
+
+# Local source materials; generated web assets are committed separately.
+Lab Member Information Form (Responses).xlsx
+publication_form_fields.xlsx
+Profile Photo (File responses)/
+Profile Photo (File responses)-*.zip
+figures/
+papers/
