@@ -14,17 +14,33 @@
 }
 
 .member-card-image {
+  display: block;
   width: 175px;
   margin-bottom: 18px;
   aspect-ratio: 1/1;
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.member-card-homepage-image {
+  display: block;
+  border-radius: 999px;
+}
+
+.member-card-homepage-image:hover .member-card-image,
+.member-card-homepage-image:focus-visible .member-card-image {
+  transform: translateY(-2px);
 }
 
 .member-card-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+}
+
+a.member-card-name {
+  text-underline-offset: 3px;
 }
 
 .member-card-team {
