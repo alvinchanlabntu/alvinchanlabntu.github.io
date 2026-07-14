@@ -27,6 +27,12 @@
   font-weight: var(--semi-bold);
 }
 
+.member-card-team {
+  margin-top: 5px;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
 .member-card-email {
   display: inline-flex;
   align-items: center;
