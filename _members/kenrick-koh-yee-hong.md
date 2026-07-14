@@ -4,6 +4,7 @@ image: "images/members/kenrick-koh-yee-hong.jpg"
 role: "postdoc"
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
+homepage: "https://www.linkedin.com/in/kenrick-koh"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   Like Lego

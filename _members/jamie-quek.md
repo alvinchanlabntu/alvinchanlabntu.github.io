@@ -4,6 +4,7 @@ image: "images/members/jamie-quek.jpeg"
 role: "research-assistant"
 description: "Research Assistant | Wet Lab Team"
 team: "Wet Lab Team"
+homepage: "https://www.linkedin.com/in/jamie-quek-bb4886246"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   I'm born on the New Year!

@@ -4,6 +4,7 @@ image: "images/members/matthias-koh-yong-an.jpeg"
 role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
+homepage: "https://www.linkedin.com/in/matthias-koh-24a110212/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   I spent part of my childhood living in France.

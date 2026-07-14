@@ -4,6 +4,7 @@ image: "images/members/weerin-mata-ngochanthra.png"
 role: "phd"
 description: "PhD Student | Wet Lab Team"
 team: "Wet Lab Team"
+homepage: "https://www.linkedin.com/in/wmngochanthra/"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Weerin Ngochanthra"

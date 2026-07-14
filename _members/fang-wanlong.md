@@ -4,6 +4,7 @@ image: "images/members/fang-wanlong.jpg"
 role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
+homepage: "https://scholar.google.com/citations?user=U1foc64AAAAJ&hl=zh-CN"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Wanlong Fang"

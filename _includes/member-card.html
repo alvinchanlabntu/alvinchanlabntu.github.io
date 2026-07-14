@@ -1,6 +1,15 @@
 {% assign member_card = include %}
 <div class="member-card-wrapper">
   <article class="member-card">
+    {% if include.homepage %}
+      <a
+        class="member-card-homepage-image"
+        href="{{ include.homepage | escape }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open homepage for {{ include.name | default: 'lab member' | regex_strip }}"
+      >
+    {% endif %}
     <img
       src="{{ include.image | relative_url | uri_escape }}"
       class="member-card-image"
@@ -8,9 +17,21 @@
       loading="lazy"
       {% include fallback.html %}
     >
+    {% if include.homepage %}
+      </a>
+    {% endif %}
 
     {% if include.name %}
-      <span class="member-card-name">{{ include.name }}</span>
+      {% if include.homepage %}
+        <a
+          class="member-card-name"
+          href="{{ include.homepage | escape }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >{{ include.name }}</a>
+      {% else %}
+        <span class="member-card-name">{{ include.name }}</span>
+      {% endif %}
     {% endif %}
 
     {% if include.team and include.team != "Not applicable" %}

@@ -4,6 +4,7 @@ image: "images/members/tao-wen.jpg"
 role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
+homepage: "https://wentao228.github.io/"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Wen Tao"

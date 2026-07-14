@@ -4,6 +4,7 @@ image: "images/members/tang-ying-peng.jpg"
 role: "postdoc"
 description: "Postdoctoral Researcher | AI Team"
 team: "AI Team"
+homepage: "https://tangyp.cn/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   An expert gamer

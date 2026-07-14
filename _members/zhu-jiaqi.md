@@ -4,6 +4,7 @@ image: "images/members/zhu-jiaqi.jpg"
 role: "postdoc"
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
+homepage: "https://scholar.google.com/citations?user=-b5HkBIAAAAJ&hl=en&authuser=1"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   Minored in psychology in college, but chemistry won in the end.

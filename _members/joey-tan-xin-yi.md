@@ -4,6 +4,7 @@ image: "images/members/joey-tan-xin-yi.jpg"
 role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
+homepage: "https://www.linkedin.com/in/joeytxy/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   Am an escape room enthusiast

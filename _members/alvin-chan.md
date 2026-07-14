@@ -4,6 +4,7 @@ image: "images/members/alvin-chan.png"
 role: "principal-investigator"
 description: "Principal Investigator"
 team: "Not applicable"
+homepage: "https://www.alvinchan.io/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   I love video games! These days you'll usually find me playing Brawl Stars with my wife.
