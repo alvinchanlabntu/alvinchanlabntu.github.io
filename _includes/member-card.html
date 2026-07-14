@@ -22,9 +22,9 @@
         class="member-card-email"
         href="mailto:{{ include.email }}"
         aria-label="Email {{ include.name | default: 'lab member' | regex_strip }}"
+        title="Email {{ include.name | default: 'lab member' | regex_strip }}"
       >
         {% include icon.html icon="fa-solid fa-envelope" %}
-        <span>{{ include.email }}</span>
       </a>
     {% endif %}
 
