@@ -7,6 +7,8 @@ team: "AI Team"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Wanlong Fang"
+fun_fact: >-
+  I love the thrill of competitive gaming—whether it’s climbing the ranks in Honor of Kings (MOBA) or surviving the tactical chaos of CODM (Battle Royale).
 links:
   email: "WANLONG001@e.ntu.edu.sg"
   google-scholar: "U1foc64AAAAJ"

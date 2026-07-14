@@ -5,6 +5,8 @@ role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  I'm the love consultant for many of my friends. They call me "the coach who never plays". If you ever need dating or relationship advice, I'm happy to help =D!
 links:
   email: "C250268@e.ntu.edu.sg"
 ---

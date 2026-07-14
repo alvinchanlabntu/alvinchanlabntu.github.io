@@ -5,6 +5,8 @@ role: "postdoc"
 description: "Postdoctoral Researcher | Wet Lab Team"
 team: "Wet Lab Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  Like Lego
 links:
   email: "kenrick.kohyh@ntu.edu.sg"
   linkedin: "kenrick-koh"

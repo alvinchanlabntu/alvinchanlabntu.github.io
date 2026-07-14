@@ -7,6 +7,8 @@ team: "AI Team"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Wen Tao"
+fun_fact: >-
+  Queen of Karaoke!
 links:
   email: "WTAO003@e.ntu.edu.sg"
   home-page: "https://wentao228.github.io/"

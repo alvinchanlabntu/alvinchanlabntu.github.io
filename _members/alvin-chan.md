@@ -5,6 +5,8 @@ role: "principal-investigator"
 description: "Principal Investigator"
 team: "Not applicable"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  I love video games! These days you'll usually find me playing Brawl Stars with my wife.
 links:
   email: "guoweialvin.chan@ntu.edu.sg"
   home-page: "https://www.alvinchan.io/"

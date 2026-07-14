@@ -5,6 +5,8 @@ role: "postdoc"
 description: "Postdoctoral Researcher | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  An expert gamer
 links:
   email: "yingpeng.tang@ntu.edu.sg"
   home-page: "https://tangyp.cn/"

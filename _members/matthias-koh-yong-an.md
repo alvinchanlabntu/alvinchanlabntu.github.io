@@ -5,6 +5,8 @@ role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  I spent part of my childhood living in France.
 links:
   email: "matthias003@e.ntu.edu.sg"
   linkedin: "matthias-koh-24a110212"

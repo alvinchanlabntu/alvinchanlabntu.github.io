@@ -7,6 +7,8 @@ team: "Wet Lab Team"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Weerin Ngochanthra"
+fun_fact: >-
+  I don't eat beef because my fav animal is a cow.
 links:
   email: "weerin001@e.ntu.edu.sg"
   linkedin: "wmngochanthra"

@@ -7,6 +7,8 @@ team: "AI Team"
 affiliation: "Nanyang Technological University"
 aliases:
   - "Tianle Zhang"
+fun_fact: >-
+  Like play games and sometime post fun clips to Douyin
 links:
   email: "TIANLE006@e.ntu.edu.sg"
   home-page: "https://ztlmememe.github.io/"

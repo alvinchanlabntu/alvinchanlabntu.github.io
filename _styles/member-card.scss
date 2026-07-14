@@ -1,0 +1,63 @@
+---
+---
+
+.member-card-wrapper {
+  display: inline-flex;
+  margin: 24px 18px;
+  vertical-align: top;
+}
+
+.member-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  max-width: calc(100vw - 80px);
+  text-align: center;
+}
+
+.member-card-image {
+  width: 175px;
+  margin-bottom: 18px;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+.member-card-name {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.member-card-email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  max-width: 100%;
+  margin-top: 7px;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.member-card-email .icon {
+  flex: 0 0 auto;
+}
+
+.member-card-fun-fact {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+  .member-card-wrapper {
+    display: flex;
+    margin: 24px auto 40px;
+  }
+
+  .member-card {
+    width: min(280px, calc(100vw - 80px));
+  }
+}

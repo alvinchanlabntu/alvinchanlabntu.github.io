@@ -5,6 +5,8 @@ role: "research-assistant"
 description: "Research Assistant | Wet Lab Team"
 team: "Wet Lab Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  I'm born on the New Year!
 links:
   email: "jamie.quek@ntu.edu.sg"
   linkedin: "jamie-quek-bb4886246"

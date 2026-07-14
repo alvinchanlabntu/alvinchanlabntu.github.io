@@ -39,9 +39,9 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
+  # expose members as data without generating individual pages
   members:
-    output: true
+    output: false
   # generate page for each post
   posts:
     output: true

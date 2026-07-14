@@ -5,6 +5,8 @@ role: "phd"
 description: "PhD Student | AI Team"
 team: "AI Team"
 affiliation: "Nanyang Technological University"
+fun_fact: >-
+  Am an escape room enthusiast
 links:
   email: "joeyxiny001@e.ntu.edu.sg"
   linkedin: "joeytxy"

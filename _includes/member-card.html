@@ -1,0 +1,32 @@
+<div class="member-card-wrapper">
+  <article class="member-card">
+    <img
+      src="{{ include.image | relative_url | uri_escape }}"
+      class="member-card-image"
+      alt="{{ include.name | default: 'Lab member' | regex_strip }}"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+
+    {% if include.name %}
+      <span class="member-card-name">{{ include.name }}</span>
+    {% endif %}
+
+    {% if include.email %}
+      <a
+        class="member-card-email"
+        href="mailto:{{ include.email }}"
+        aria-label="Email {{ include.name | default: 'lab member' | regex_strip }}"
+      >
+        {% include icon.html icon="fa-solid fa-envelope" %}
+        <span>{{ include.email }}</span>
+      </a>
+    {% endif %}
+
+    {% if include.fun_fact %}
+      <p class="member-card-fun-fact">
+        <strong>Fun fact:</strong> {{ include.fun_fact }}
+      </p>
+    {% endif %}
+  </article>
+</div>
