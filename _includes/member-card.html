@@ -22,12 +22,11 @@
     {% endif %}
 
     {% if include.name %}
-      {% if include.homepage %}
+      {% if include.email %}
         <a
           class="member-card-name"
-          href="{{ include.homepage | escape }}"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:{{ include.email }}"
+          aria-label="Email {{ include.name | regex_strip }}"
         >{{ include.name }}</a>
       {% else %}
         <span class="member-card-name">{{ include.name }}</span>
@@ -36,17 +35,6 @@
 
     {% if include.team and include.team != "Not applicable" %}
       <span class="member-card-team">{{ include.team }}</span>
-    {% endif %}
-
-    {% if include.email %}
-      <a
-        class="member-card-email"
-        href="mailto:{{ include.email }}"
-        aria-label="Email {{ include.name | default: 'lab member' | regex_strip }}"
-        title="Email {{ include.name | default: 'lab member' | regex_strip }}"
-      >
-        {% include icon.html icon="fa-solid fa-envelope" %}
-      </a>
     {% endif %}
 
     {% if include.fun_fact %}
