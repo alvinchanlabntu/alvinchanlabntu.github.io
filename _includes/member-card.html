@@ -13,6 +13,10 @@
       <span class="member-card-name">{{ include.name }}</span>
     {% endif %}
 
+    {% if include.team and include.team != "Not applicable" %}
+      <span class="member-card-team">{{ include.team }}</span>
+    {% endif %}
+
     {% if include.email %}
       <a
         class="member-card-email"
