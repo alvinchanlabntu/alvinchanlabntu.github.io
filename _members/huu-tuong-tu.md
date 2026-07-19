@@ -1,6 +1,6 @@
 ---
 name: "Huu Tuong Tu"
-image: "images/members/huu-tuong-tu.jpg"
+image: "images/members/huu-tuong-tu.png"
 role: "phd"
 order: 8
 description: "PhD Student | AI Team"
