@@ -1,15 +1,6 @@
 {% assign member_card = include %}
 <div class="member-card-wrapper">
   <article class="member-card">
-    {% if include.homepage %}
-      <a
-        class="member-card-homepage-image"
-        href="{{ include.homepage | escape }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Open homepage for {{ include.name | default: 'lab member' | regex_strip }}"
-      >
-    {% endif %}
     <img
       src="{{ include.image | relative_url | uri_escape }}"
       class="member-card-image"
@@ -17,24 +8,40 @@
       loading="lazy"
       {% include fallback.html %}
     >
-    {% if include.homepage %}
-      </a>
-    {% endif %}
 
     {% if include.name %}
-      {% if include.email %}
-        <a
-          class="member-card-name"
-          href="mailto:{{ include.email }}"
-          aria-label="Email {{ include.name | regex_strip }}"
-        >{{ include.name }}</a>
-      {% else %}
-        <span class="member-card-name">{{ include.name }}</span>
-      {% endif %}
+      <span class="member-card-name">{{ include.name }}</span>
     {% endif %}
 
     {% if include.team and include.team != "Not applicable" %}
       <span class="member-card-team">{{ include.team }}</span>
+    {% endif %}
+
+    {% if include.homepage or include.email %}
+      <div class="member-card-links" aria-label="Contact links for {{ include.name | default: 'lab member' | regex_strip }}">
+        {% if include.homepage %}
+          <a
+            class="member-card-link"
+            href="{{ include.homepage | escape }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open homepage for {{ include.name | default: 'lab member' | regex_strip }}"
+            title="Homepage"
+          >
+            {% include icon.html icon="fa-solid fa-globe" %}
+          </a>
+        {% endif %}
+        {% if include.email %}
+          <a
+            class="member-card-link"
+            href="mailto:{{ include.email }}"
+            aria-label="Email {{ include.name | default: 'lab member' | regex_strip }}"
+            title="Email"
+          >
+            {% include icon.html icon="fa-solid fa-envelope" %}
+          </a>
+        {% endif %}
+      </div>
     {% endif %}
 
     {% if include.fun_fact %}

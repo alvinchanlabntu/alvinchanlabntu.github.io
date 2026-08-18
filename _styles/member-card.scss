@@ -27,29 +27,47 @@
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
-.member-card-homepage-image {
-  display: block;
-  border-radius: 999px;
-}
-
-.member-card-homepage-image:hover .member-card-image,
-.member-card-homepage-image:focus-visible .member-card-image {
-  transform: translateY(-2px);
-}
-
 .member-card-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
-}
-
-a.member-card-name {
-  text-underline-offset: 3px;
 }
 
 .member-card-team {
   margin-top: 5px;
   color: var(--gray);
   font-size: 0.9rem;
+}
+
+.member-card-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.member-card-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: var(--light-gray);
+  color: var(--primary);
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+}
+
+.member-card-link:hover,
+.member-card-link:focus-visible {
+  background: var(--primary);
+  color: var(--background);
+  transform: translateY(-2px);
+}
+
+.member-card-link .icon {
+  font-size: 1rem;
 }
 
 .member-card-fun-fact {
