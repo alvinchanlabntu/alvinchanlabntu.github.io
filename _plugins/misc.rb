@@ -69,7 +69,10 @@ module Jekyll
 
     # from css text, find font family definitions and construct google font url
     def google_fonts(css)
-      names = regex_scan(css, '--\S*:\s*"(.*)",?.*;', false, true).sort.uniq
+      names = css.scan(/--\S+:\s*[^;]*;/)
+        .flat_map { |line| line.scan(/"([^"]+)"/).flatten }
+        .sort
+        .uniq
       weights = regex_scan(css, '--\S*:\s(\d{3});', false, true).sort.uniq
       url = "https://fonts.googleapis.com/css2?display=swap&"
       for name in names do
