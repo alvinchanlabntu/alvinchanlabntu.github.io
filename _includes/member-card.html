@@ -20,7 +20,10 @@
     {% if include.homepage or include.email %}
       <div class="member-card-links" aria-label="Contact links for {{ include.name | default: 'lab member' | regex_strip }}">
         {% if include.homepage %}
-          {% assign homepage_is_external = include.homepage contains "://" %}
+          {% assign homepage_is_external = false %}
+          {% if include.homepage contains "://" %}
+            {% assign homepage_is_external = true %}
+          {% endif %}
           <a
             class="member-card-link"
             href="{{ include.homepage | escape }}"
