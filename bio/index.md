@@ -2,8 +2,6 @@
 title: Alvin Chan
 ---
 
-# Alvin Chan
-
 {% capture pi_bio_text %}
 
 **Alvin Chan** is an Assistant Professor at Nanyang Technological University, with appointments in the College of Computing and Data Science and the Lee Kong Chian School of Medicine. His work develops AI for biomedical and drug discovery, especially at the intersection of generative models, AI for science, nanomedicine, and precision medicine.
@@ -26,6 +24,26 @@ Before joining NTU, Alvin was a postdoctoral fellow in the Traverso Lab at MIT, 
 
 ## Education
 
-- Postdoctoral Fellowship, Massachusetts Institute of Technology and Brigham and Women's Hospital, Harvard Medical School, 2024
-- PhD in Computer Science, Nanyang Technological University, 2021
-- BEng in Bioengineering, Nanyang Technological University, 2013
+<div class="bio-education">
+  <div class="bio-education-item">
+    <span class="bio-education-year">2024</span>
+    <div class="bio-education-details">
+      <strong>Postdoctoral Fellowship</strong>
+      <span>Massachusetts Institute of Technology and Brigham and Women's Hospital, Harvard Medical School</span>
+    </div>
+  </div>
+  <div class="bio-education-item">
+    <span class="bio-education-year">2021</span>
+    <div class="bio-education-details">
+      <strong>PhD in Computer Science</strong>
+      <span>Nanyang Technological University</span>
+    </div>
+  </div>
+  <div class="bio-education-item">
+    <span class="bio-education-year">2013</span>
+    <div class="bio-education-details">
+      <strong>BEng in Bioengineering</strong>
+      <span>Nanyang Technological University</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+---
+---
+
+.bio-education {
+  display: grid;
+  gap: 0;
+  margin: 20px 0 0;
+}
+
+.bio-education-item {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 16px 0;
+  border-bottom: solid 1px var(--light-gray);
+}
+
+.bio-education-item:first-child {
+  padding-top: 4px;
+}
+
+.bio-education-year {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  min-height: 32px;
+  border: solid 1px var(--light-gray);
+  border-radius: var(--rounded);
+  color: var(--primary);
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  line-height: var(--compact);
+}
+
+.bio-education-details {
+  display: grid;
+  gap: 4px;
+  line-height: var(--compact);
+}
+
+.bio-education-details strong {
+  font-weight: var(--semi-bold);
+}
+
+.bio-education-details span {
+  color: var(--dark-gray);
+}
+
+@media (max-width: 600px) {
+  .bio-education-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
