@@ -20,13 +20,16 @@
     {% if include.homepage or include.email %}
       <div class="member-card-links" aria-label="Contact links for {{ include.name | default: 'lab member' | regex_strip }}">
         {% if include.homepage %}
+          {% assign homepage_is_external = include.homepage contains "://" %}
           <a
             class="member-card-link"
             href="{{ include.homepage | escape }}"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Open homepage for {{ include.name | default: 'lab member' | regex_strip }}"
-            title="Homepage"
+            {% if homepage_is_external %}
+              target="_blank"
+              rel="noopener noreferrer"
+            {% endif %}
+            aria-label="Open {% if homepage_is_external %}homepage{% else %}bio{% endif %} for {{ include.name | default: 'lab member' | regex_strip }}"
+            title="{% if homepage_is_external %}Homepage{% else %}Bio{% endif %}"
           >
             {% include icon.html icon="fa-solid fa-globe" %}
           </a>

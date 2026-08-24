@@ -4,13 +4,13 @@ image: "images/members/alvin-chan.png"
 role: "principal-investigator"
 description: "Principal Investigator"
 team: "Not applicable"
-homepage: "https://www.alvinchan.io/"
+homepage: "/bio/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
   I love video games! These days you'll usually find me playing Brawl Stars with my wife.
 links:
   email: "guoweialvin.chan@ntu.edu.sg"
-  home-page: "https://www.alvinchan.io/"
+  home-page: "/bio/"
 ---
 
 Alvin Chan is an Assistant Professor jointly appointed at the College of Computing and Data Science and the Lee Kong Chian School of Medicine at NTU. His research develops generative and multimodal AI for therapeutic discovery, precision medicine, nanomedicine, and RNA therapeutics.
