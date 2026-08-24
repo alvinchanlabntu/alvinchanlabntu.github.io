@@ -8,7 +8,7 @@ title: Alvin Chan
 
 Before joining NTU, Alvin was a postdoctoral fellow in the Traverso Lab at MIT, where he worked on deep learning methods for nanomedicine.
 
-{% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" style="bare" %}
+{% include button.html type="email" text="Email" link="guoweialvin.chan@ntu.edu.sg" style="bare" %}
 {% include button.html icon="fa-brands fa-linkedin" text="LinkedIn" link="https://sg.linkedin.com/in/alvin-chan-guo-wei" style="bare" %}
 {% include button.html icon="fa-brands fa-google" text="Google Scholar" link="https://scholar.google.com/citations?user=SP4eIUYAAAAJ&hl=en" style="bare" %}
 {% include button.html icon="fa-brands fa-github" text="GitHub" link="https://github.com/alvinchangw" style="bare" %}
