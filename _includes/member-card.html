@@ -31,8 +31,8 @@
               target="_blank"
               rel="noopener noreferrer"
             {% endif %}
-            aria-label="Open {% if homepage_is_external %}homepage{% else %}bio{% endif %} for {{ include.name | default: 'lab member' | regex_strip }}"
-            title="{% if homepage_is_external %}Homepage{% else %}Bio{% endif %}"
+            aria-label="{% if homepage_is_external %}Open homepage for{% else %}Open profile for{% endif %} {{ include.name | default: 'lab member' | regex_strip }}"
+            title="{% if homepage_is_external %}Homepage{% else %}{{ include.name | default: 'Profile' | regex_strip }}{% endif %}"
           >
             {% include icon.html icon="fa-solid fa-globe" %}
           </a>

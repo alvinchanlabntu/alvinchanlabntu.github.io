@@ -49,8 +49,8 @@ external:
 
 home-page:
   icon: fa-solid fa-house-user
-  text: Home Page
-  tooltip: Home page
+  text: Alvin Chan
+  tooltip: Alvin Chan
 
 email:
   icon: fa-solid fa-envelope
