@@ -6,7 +6,7 @@ title: Alvin Chan
 
 **Alvin Chan** is an Assistant Professor at Nanyang Technological University, with appointments in the College of Computing and Data Science and the Lee Kong Chian School of Medicine. His work develops AI for biomedical and drug discovery, especially at the intersection of generative models, AI for science, nanomedicine, and precision medicine.
 
-Before joining NTU, Alvin was a postdoctoral fellow in the Traverso Lab at MIT, where he worked on deep learning methods for nanomedicine. He is recruiting PhD students interested in applying deep learning to medicine.
+Before joining NTU, Alvin was a postdoctoral fellow in the Traverso Lab at MIT, where he worked on deep learning methods for nanomedicine.
 
 {% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" style="bare" %}
 {% include button.html icon="fa-brands fa-linkedin" text="LinkedIn" link="https://sg.linkedin.com/in/alvin-chan-guo-wei" style="bare" %}
