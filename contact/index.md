@@ -10,7 +10,7 @@ nav:
 We welcome conversations with prospective students, researchers, and collaborators working at the intersection of AI and biomedical science.
 
 {% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" %}
-{% include button.html type="home-page" text="PI Bio" link="/bio/" %}
+{% include button.html type="home-page" text="Alvin Chan" link="/bio/" %}
 {% include button.html type="address" text="NTU Singapore" tooltip="Nanyang Technological University on Google Maps" link="https://www.google.com/maps/search/?api=1&query=Nanyang+Technological+University+Singapore" %}
 
 {% include section.html %}

@@ -1,8 +1,8 @@
 ---
-title: PI Bio
+title: Alvin Chan
 ---
 
-# PI Bio
+# Alvin Chan
 
 {% capture pi_bio_text %}
 
