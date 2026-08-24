@@ -24,16 +24,6 @@ Before joining NTU, Alvin was a postdoctoral fellow in the Traverso Lab at MIT, 
 
 {% include section.html %}
 
-## Research Focus
-
-Alvin's research aims to build AI systems that connect knowledge and data across biomedical domains, including multi-omics, nanomedicine, and nucleic acid and protein engineering. His lab studies multimodal deep learning and high-throughput science to accelerate precision medicine and intelligent nanomedicine.
-
-## Interests
-
-- Generative Models
-- AI for Science
-- Nanomedicine
-
 ## Education
 
 - Postdoctoral Fellowship, Massachusetts Institute of Technology and Brigham and Women's Hospital, Harvard Medical School, 2024
