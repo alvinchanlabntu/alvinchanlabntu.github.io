@@ -23,11 +23,6 @@ header {
   }
 }
 
-header.background[data-dark="false"] {
-  background: #ecfdf5;
-  border-bottom: solid 1px #99f6e4;
-}
-
 header a {
   color: var(--text);
   text-decoration: none;

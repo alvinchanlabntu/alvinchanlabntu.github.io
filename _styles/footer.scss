@@ -12,11 +12,6 @@ footer {
   box-shadow: var(--shadow);
 }
 
-footer.background[data-dark="false"] {
-  background: #ecfdf5;
-  border-top: solid 1px #99f6e4;
-}
-
 footer a {
   color: var(--text) !important;
 }
