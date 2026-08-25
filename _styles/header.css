@@ -11,12 +11,6 @@ header {
   z-index: 10 !important;
 }
 
-header.background[data-dark=false] {
-  --text: #ffffff;
-  --primary: #ffffff;
-  --background: #0f766e;
-}
-
 header a {
   color: var(--text);
   text-decoration: none;
