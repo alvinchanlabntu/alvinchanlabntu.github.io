@@ -2,7 +2,8 @@
 title: Alvin Chan Lab
 subtitle: AI for Therapeutic Discovery and Precision Medicine
 description: We develop generative and multimodal AI systems for therapeutic discovery, nanomedicine, and precision healthcare at Nanyang Technological University.
-header-dark: true
+header-dark: false
+footer-dark: false
 proofer: false
 
 url: https://alvinchanlabntu.github.io
