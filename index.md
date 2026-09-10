@@ -24,13 +24,13 @@ Our vision is to advance AI-driven therapeutic discovery across molecules, prote
 
 {% capture multimodal_text %}
 
-Our AI team studies how foundation models combine modalities, reason over scientific representations, and remain reliable when information sources interact in unexpected ways.
+Therapeutic discovery is formulated as an iterative feedback loop that connects candidate design, evaluation, learning, and optimization. Candidates are assessed using feedback sources with different costs and fidelity levels, from computational predictors and simulations to experimental assays and expert input. The resulting feedback is used to update models through representation learning, preference learning, active learning, and uncertainty estimation. These updated models then guide multi-objective optimization of properties such as potency, safety, stability, developability, and selectivity, closing the loop for the next round of design.
 
 {% include button.html link="publications" text="View publications" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{% include feature.html image="images/publications/in-context-representation-learning.png" link="publications" title="Multimodal scientific AI" flip=true text=multimodal_text %}
+{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Multimodal scientific AI" flip=true text=multimodal_text contain=true %}
 
 {% capture team_text %}
 
