@@ -21,26 +21,12 @@
   object-fit: cover;
 }
 
-.feature[data-contain] {
-  flex-direction: column !important;
-  align-items: stretch;
-  gap: 24px;
-}
-
 .feature[data-contain] .feature-image {
-  width: 100%;
-  max-width: none;
   background: white;
 }
 
 .feature[data-contain] .feature-image img {
   object-fit: contain;
-}
-
-.feature[data-contain] .feature-text {
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .feature-text {
