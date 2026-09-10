@@ -20,7 +20,7 @@ Our vision is to advance AI-driven therapeutic discovery across molecules, prote
 
 {% endcapture %}
 
-{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="research" title="Intelligent therapeutics" text=precision_text contain=true ratio="1600 / 579" %}
+{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="research" title="AI-driven therapeutic discovery" text=precision_text contain=true ratio="1600 / 579" %}
 
 {% capture multimodal_text %}
 
@@ -30,7 +30,7 @@ Therapeutic discovery is formulated as an iterative feedback loop that connects 
 
 {% endcapture %}
 
-{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Multimodal scientific AI" flip=true text=multimodal_text contain=true ratio="1600 / 533" %}
+{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" flip=true text=multimodal_text contain=true ratio="1600 / 533" %}
 
 {% capture team_text %}
 
