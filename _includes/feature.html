@@ -6,6 +6,9 @@
   {% if include.contain %}
     data-contain
   {% endif %}
+  {% if include.ratio %}
+    style="--feature-image-ratio: {{ include.ratio }};"
+  {% endif %}
 >
   <a
     {% if include.link %}
