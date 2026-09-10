@@ -26,6 +26,14 @@ $wrap: 800px;
   object-fit: cover;
 }
 
+.feature[data-contain] .feature-image {
+  background: white;
+}
+
+.feature[data-contain] .feature-image img {
+  object-fit: contain;
+}
+
 .feature-text {
   flex-grow: 1;
 }

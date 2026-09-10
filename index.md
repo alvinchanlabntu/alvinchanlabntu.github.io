@@ -14,13 +14,13 @@ We are an interdisciplinary research group at Nanyang Technological University. 
 
 {% capture precision_text %}
 
-We develop models that connect molecular structures, formulations, biological measurements, and clinical questions. The goal is to turn complex biomedical data into actionable designs for precision healthcare.
+Our vision is to advance AI-driven therapeutic discovery across molecules, proteins, peptides, RNAs, and LNPs. We develop computational methods for representation learning, modality-specific and cross-modal modeling, generative design, and feedback-guided optimization. Together, these methods support three core capabilities: predicting properties and interactions, designing novel therapeutic candidates, and optimizing candidates across multiple objectives.
 
 {% include button.html link="research" text="Research areas" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{% include feature.html image="images/publications/designing-lipid-nanoparticles.png" link="research" title="Intelligent therapeutics" text=precision_text %}
+{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="research" title="Intelligent therapeutics" text=precision_text contain=true %}
 
 {% capture multimodal_text %}
 
