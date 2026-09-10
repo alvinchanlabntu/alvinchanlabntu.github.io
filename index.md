@@ -40,7 +40,7 @@ Researchers in machine learning and experimental science work side by side, conn
 
 {% endcapture %}
 
-{% include feature.html image="images/members/alvin-chan.png" link="team" title="One interdisciplinary lab" text=team_text %}
+{% include feature.html image="images/home/one-interdisciplinary-lab.jpeg" link="team" title="One interdisciplinary lab" text=team_text %}
 
 {% include section.html %}
 
