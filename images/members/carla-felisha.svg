@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Carla Felisha">
+  <rect width="400" height="400" fill="#f5faf9"/>
+  <circle cx="200" cy="200" r="170" fill="#0b8277"/>
+  <text x="200" y="222" text-anchor="middle" font-family="Inter, Roboto, Arial, sans-serif" font-size="118" font-weight="600" fill="#ffffff">CF</text>
+</svg>
