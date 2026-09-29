@@ -64,10 +64,6 @@
   margin-top: 0;
 }
 
-.feature[data-text-first] .feature-text {
-  order: -1;
-}
-
 .feature[data-contain]:not([data-stack]) {
   margin: 48px 0 44px;
 }
