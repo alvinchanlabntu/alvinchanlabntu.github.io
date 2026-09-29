@@ -2,6 +2,7 @@
 name: "Jamie Quek"
 image: "images/members/jamie-quek.jpeg"
 role: "research-assistant"
+order: 1
 description: "Research Assistant | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://www.linkedin.com/in/jamie-quek-bb4886246"

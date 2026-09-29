@@ -29,4 +29,4 @@ nav:
 
 ## Research Assistants
 
-{% include list.html data="members" component="member-card" filter="role == 'research-assistant'" %}
+{% include list.html data="members" component="member-card" filter="role == 'research-assistant'" sort="order" %}
