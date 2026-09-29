@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 4
+  order: 3
   tooltip: Contact and opportunities
 ---
 

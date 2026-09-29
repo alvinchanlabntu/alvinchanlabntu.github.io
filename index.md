@@ -5,7 +5,6 @@
 
 We are an interdisciplinary research group at Nanyang Technological University. We combine generative AI, multimodal learning, and high-throughput experimentation to make therapeutic discovery faster, more precise, and more accessible.
 
-{% include button.html link="research" text="Explore our research" icon="fa-solid fa-arrow-right" flip=true %}
 {% include button.html link="team" text="Meet the team" icon="fa-solid fa-users" %}
 
 {% include section.html %}
@@ -16,11 +15,9 @@ We are an interdisciplinary research group at Nanyang Technological University. 
 
 Our vision is to advance AI-driven therapeutic discovery across molecules, proteins, peptides, RNAs, and LNPs. We develop computational methods for representation learning, modality-specific and cross-modal modeling, generative design, and feedback-guided optimization. Together, these methods support three core capabilities: predicting properties and interactions, designing novel therapeutic candidates, and optimizing candidates across multiple objectives.
 
-{% include button.html link="research" text="Research areas" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
 {% endcapture %}
 
-{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="research" title="AI-driven therapeutic discovery" text=precision_text contain=true ratio="1600 / 579" %}
+{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="publications" title="AI-driven therapeutic discovery" text=precision_text contain=true ratio="1600 / 579" %}
 
 {% capture multimodal_text %}
 
