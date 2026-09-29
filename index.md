@@ -13,12 +13,11 @@ We are an interdisciplinary research group at Nanyang Technological University. 
 
 {% capture precision_text %}
 
-**AI-driven therapeutic discovery.**<br>
 Our research spans five therapeutic modalities: molecules, proteins, peptides, RNAs, and LNPs. Across these modalities, we develop AI methods that support three core capabilities: predicting properties, interactions, and outcomes; designing novel therapeutic candidates; and optimizing candidates across multiple objectives.
 
 {% endcapture %}
 
-{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="publications" text=precision_text contain=true ratio="1600 / 685" %}
+{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="publications" title="AI-driven therapeutic discovery" text=precision_text contain=true ratio="1600 / 685" %}
 
 {% capture multimodal_text %}
 
