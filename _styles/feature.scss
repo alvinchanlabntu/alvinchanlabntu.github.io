@@ -69,6 +69,18 @@ $wrap: 800px;
   margin-top: 0;
 }
 
+.feature[data-contain]:not([data-stack]) {
+  margin: 48px 0 44px;
+}
+
+.feature[data-contain]:not([data-stack]) .feature-image {
+  width: 54%;
+}
+
+.feature[data-contain]:not([data-stack]) .feature-text {
+  max-width: 430px;
+}
+
 .feature[data-photo] {
   align-items: center;
 }
@@ -92,7 +104,9 @@ $wrap: 800px;
   }
 
   .feature[data-stack] .feature-image,
+  .feature[data-contain]:not([data-stack]) .feature-image,
   .feature[data-photo] .feature-image {
+    width: 100%;
     max-width: 100%;
   }
 

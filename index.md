@@ -25,7 +25,7 @@ We connect AI-guided candidate development with computational and experimental e
 
 {% endcapture %}
 
-{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" text=multimodal_text contain=true stack=true ratio="1536 / 1024" %}
+{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" text=multimodal_text contain=true flip=true ratio="1536 / 1024" %}
 
 {% include section.html %}
 
