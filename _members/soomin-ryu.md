@@ -1,6 +1,6 @@
 ---
 name: "Soomin Ryu"
-image: "images/members/soomin-ryu.svg"
+image: "images/members/soomin-ryu.jpg"
 role: "research-assistant"
 order: 2
 description: "Research Assistant | Wet Lab Team"

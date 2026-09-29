@@ -1,6 +1,6 @@
 ---
 name: "Do Tra My Duong"
-image: "images/members/do-tra-my-duong.svg"
+image: "images/members/do-tra-my-duong.jpg"
 role: "phd"
 order: 9
 description: "PhD Student | Wet Lab Team"
