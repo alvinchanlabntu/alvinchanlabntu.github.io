@@ -19,6 +19,14 @@
     data-text-first
   {% endif %}
 >
+  {% if include.text_first %}
+    <div class="feature-text">
+      {% if include.title %}
+        <p class="feature-title">{{ include.title }}</p>
+      {% endif %}
+      {{ include.text | markdownify }}
+    </div>
+  {% endif %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
@@ -33,10 +41,12 @@
       {% include fallback.html %}
     >
   </a>
-  <div class="feature-text">
-    {% if include.title %}
-      <p class="feature-title">{{ include.title }}</p>
-    {% endif %}
-    {{ include.text | markdownify }}
-  </div>
+  {% unless include.text_first %}
+    <div class="feature-text">
+      {% if include.title %}
+        <p class="feature-title">{{ include.title }}</p>
+      {% endif %}
+      {{ include.text | markdownify }}
+    </div>
+  {% endunless %}
 </div>
