@@ -2,7 +2,7 @@
 name: "Carla Felisha"
 image: "images/members/carla-felisha.jpg"
 role: "research-assistant"
-order: 3
+order: 2
 description: "Research Assistant | Wet Lab Team"
 team: "Wet Lab Team"
 affiliation: "Nanyang Technological University"

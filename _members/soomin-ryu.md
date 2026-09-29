@@ -2,7 +2,7 @@
 name: "Soomin Ryu"
 image: "images/members/soomin-ryu.jpg"
 role: "research-assistant"
-order: 2
+order: 3
 description: "Research Assistant | Wet Lab Team"
 team: "Wet Lab Team"
 homepage: "https://www.linkedin.com/in/soominryu0130"
