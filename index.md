@@ -17,7 +17,7 @@ Our research spans five therapeutic modalities: molecules, proteins, peptides, R
 
 {% endcapture %}
 
-{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="publications" title="AI-driven therapeutic discovery" text=precision_text contain=true ratio="1600 / 533" %}
+{% include feature.html image="images/home/ai-driven-therapeutic-discovery.png" link="publications" title="AI-driven therapeutic discovery" text=precision_text contain=true stack=true ratio="1600 / 533" %}
 
 {% capture multimodal_text %}
 
@@ -25,7 +25,11 @@ We connect AI-guided candidate development with computational and experimental e
 
 {% endcapture %}
 
-{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" flip=true text=multimodal_text contain=true ratio="1536 / 1024" %}
+{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" text=multimodal_text contain=true stack=true ratio="1536 / 1024" %}
+
+{% include section.html %}
+
+## People
 
 {% capture team_text %}
 
@@ -35,7 +39,7 @@ Researchers in machine learning and experimental science work side by side, conn
 
 {% endcapture %}
 
-{% include feature.html image="images/home/one-interdisciplinary-lab.jpeg" link="team" title="One interdisciplinary lab" text=team_text %}
+{% include feature.html image="images/home/one-interdisciplinary-lab.jpeg" link="team" title="One interdisciplinary lab" text=team_text photo=true ratio="1280 / 853" %}
 
 {% include section.html %}
 

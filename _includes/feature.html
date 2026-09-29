@@ -9,6 +9,12 @@
   {% if include.ratio %}
     style="--feature-image-ratio: {{ include.ratio }};"
   {% endif %}
+  {% if include.stack %}
+    data-stack
+  {% endif %}
+  {% if include.photo %}
+    data-photo
+  {% endif %}
 >
   <a
     {% if include.link %}
