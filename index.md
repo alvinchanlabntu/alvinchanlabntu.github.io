@@ -21,13 +21,11 @@ Our research spans five therapeutic modalities: molecules, proteins, peptides, R
 
 {% capture multimodal_text %}
 
-Therapeutic discovery is formulated as an iterative feedback loop that connects candidate design, evaluation, learning, and optimization. Candidates are assessed using feedback sources with different costs and fidelity levels, from computational predictors and simulations to experimental assays and expert input. The resulting feedback is used to update models through representation learning, preference learning, active learning, and uncertainty estimation. These updated models then guide multi-objective optimization of properties such as potency, safety, stability, developability, and selectivity, closing the loop for the next round of design.
-
-{% include button.html link="publications" text="View publications" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+We connect AI-guided candidate development with computational and experimental evaluation. Predictive modeling, generative design, and multi-objective optimization propose and refine therapeutic candidates, which are then evaluated through computational models, simulations, experiments, and expert input. The resulting measurements are analyzed to extract learning signals and update the AI models, enabling the next round of candidate development.
 
 {% endcapture %}
 
-{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" flip=true text=multimodal_text contain=true ratio="1600 / 533" %}
+{% include feature.html image="images/home/closed-loop-therapeutic-discovery.png" link="publications" title="Closed-loop therapeutic discovery" flip=true text=multimodal_text contain=true ratio="1536 / 1024" %}
 
 {% capture team_text %}
 
