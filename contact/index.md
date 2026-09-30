@@ -5,9 +5,9 @@ nav:
   tooltip: Contact and opportunities
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# Contact
 
-We welcome conversations with prospective students, researchers, and collaborators working at the intersection of AI and biomedical science.
+We welcome conversations with prospective students, researchers, and collaborators interested in AI for therapeutic discovery and Precision Medicine.
 
 {% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" %}
 {% include button.html type="home-page" text="Alvin Chan" link="/alvin-chan/" %}
@@ -15,23 +15,6 @@ We welcome conversations with prospective students, researchers, and collaborato
 
 {% include section.html %}
 
-{% capture col1 %}
-
 ## Join the lab
 
-We are interested in students and researchers who want to develop deep learning methods for medicine, molecular design, multimodal reasoning, and high-throughput therapeutic discovery. Please email Alvin with a short description of your interests and relevant experience.
-
-{% endcapture %}
-
-{% capture col2 %}
-
-## Affiliation
-
-**Nanyang Technological University**  
-College of Computing and Data Science  
-Lee Kong Chian School of Medicine  
-50 Nanyang Avenue, Singapore 639798
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
+We are interested in students and researchers who want to develop AI methods for therapeutic discovery, including predictive modeling, generative design, multimodal learning, optimization, and learning from experimental feedback. Please email Alvin with a short description of your research interests and relevant experience.
