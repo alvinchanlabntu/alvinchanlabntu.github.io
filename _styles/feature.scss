@@ -34,6 +34,15 @@ $wrap: 800px;
   object-fit: contain;
 }
 
+.feature[data-flat] .feature-image {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.feature[data-flat] .feature-image img {
+  border-radius: 0;
+}
+
 .feature-text {
   flex-grow: 1;
 }
