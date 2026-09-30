@@ -47,7 +47,7 @@ Researchers in AI and experimental science work together on shared biomedical pr
 
 {% include section.html %}
 
-## Selected publications
+## Selected Publications
 
 {% include citation.html lookup="Towards Understanding Modality Interaction" style="rich" %}
 {% include citation.html lookup="Designing lipid nanoparticles" style="rich" %}
