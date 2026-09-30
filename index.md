@@ -1,19 +1,21 @@
 ---
 ---
 
-# AI for Therapeutic Discovery and Precision Medicine
+# AI for Therapeutic Discovery
 
-We are an interdisciplinary research group at Nanyang Technological University. We combine generative AI, multimodal learning, and high-throughput experimentation to make therapeutic discovery faster, more precise, and more accessible.
+We develop AI methods for therapeutic discovery and precision medicine by connecting predictive modeling, generative design, optimization, and experimental feedback. Our work spans computational method development and experimental applications, with the goal of improving how therapeutic candidates are discovered, evaluated, and refined.
 
 {% include button.html link="team" text="Meet the team" icon="fa-solid fa-users" %}
 
 {% include section.html %}
 
-## Research at the interface of AI and medicine
+## Our Research
 
 {% capture precision_text %}
 
-Our research spans five therapeutic modalities: molecules, proteins, peptides, RNAs, and LNPs. Across these modalities, we develop AI methods that support three core capabilities: predicting properties, interactions, and outcomes; designing novel therapeutic candidates; and optimizing candidates across multiple objectives.
+Our research covers small molecules, proteins, peptides, RNAs, and LNP formulations. Across these domains, we develop AI methods for three core tasks: predicting properties, interactions, and biological outcomes; designing new therapeutic candidates; and optimizing candidates under multiple objectives.
+
+{% include button.html link="publications" text="AI-driven therapeutic discovery" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
@@ -21,7 +23,9 @@ Our research spans five therapeutic modalities: molecules, proteins, peptides, R
 
 {% capture multimodal_text %}
 
-We connect AI-guided candidate development with computational and experimental evaluation. Predictive modeling, generative design, and multi-objective optimization propose and refine therapeutic candidates, which are then evaluated through computational models, simulations, experiments, and expert input. The resulting measurements are analyzed to extract learning signals and update the AI models, enabling the next round of candidate development.
+We develop closed-loop discovery systems that connect AI-guided candidate development with computational and experimental evaluation. Predictive models assess candidate properties and outcomes, generative models propose new candidates, and optimization methods refine them across multiple objectives. Candidates are then evaluated through computational screening, simulation, experimental assays, and expert feedback. The resulting measurements and feedback are converted into learning signals that update the models and guide the next round of discovery.
+
+{% include button.html link="publications" text="Closed-loop therapeutic discovery" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
@@ -33,7 +37,7 @@ We connect AI-guided candidate development with computational and experimental e
 
 {% capture team_text %}
 
-Researchers in machine learning and experimental science work side by side, connecting model development with real biomedical questions and high-throughput validation.
+Researchers in AI and experimental science work together on shared biomedical problems, connecting model development with experimental evaluation and real therapeutic applications.
 
 {% include button.html link="team" text="Meet our members" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
