@@ -8,6 +8,22 @@
   z-index: 1;
 }
 
+html[data-dark="false"] header.background:not([data-dark-fixed]),
+html[data-dark="false"] footer.background:not([data-dark-fixed]) {
+  --primary: #0f766e;
+  --text: #111827;
+  --background: #ffffff;
+  --overlay: #00000020;
+}
+
+html[data-dark="true"] header.background:not([data-dark-fixed]),
+html[data-dark="true"] footer.background:not([data-dark-fixed]) {
+  --primary: #5eead4;
+  --text: #ffffff;
+  --background: #111827;
+  --overlay: #ffffff10;
+}
+
 .background:before {
   content: "";
   position: absolute;
