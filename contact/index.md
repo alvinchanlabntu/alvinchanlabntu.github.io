@@ -15,6 +15,23 @@ We welcome conversations with prospective students, researchers, and collaborato
 
 {% include section.html %}
 
+{% capture col1 %}
+
 ## Join the lab
 
 We are interested in students and researchers who want to develop AI methods for therapeutic discovery, including predictive modeling, generative design, multimodal learning, optimization, and learning from experimental feedback. Please email Alvin with a short description of your research interests and relevant experience.
+
+{% endcapture %}
+
+{% capture col2 %}
+
+## Affiliation
+
+**Nanyang Technological University**<br>
+College of Computing and Data Science<br>
+Lee Kong Chian School of Medicine<br>
+50 Nanyang Avenue, Singapore 639798
+
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}

@@ -1,5 +1,10 @@
 {% assign image = page.header | default: site.header %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+{% assign dark = "" %}
+{% if page.header-dark == true or page.header-dark == false %}
+  {% assign dark = page.header-dark %}
+{% elsif site.header-dark == true or site.header-dark == false %}
+  {% assign dark = site.header-dark %}
+{% endif %}
 
 <header
   class="background"

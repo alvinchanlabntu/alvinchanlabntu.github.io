@@ -1,5 +1,10 @@
 {% assign image = page.footer | default: site.footer %}
-{% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
+{% assign dark = "" %}
+{% if page.footer-dark == true or page.footer-dark == false %}
+  {% assign dark = page.footer-dark %}
+{% elsif site.footer-dark == true or site.footer-dark == false %}
+  {% assign dark = site.footer-dark %}
+{% endif %}
 
 <footer
   class="background"
