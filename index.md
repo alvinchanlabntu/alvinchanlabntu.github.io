@@ -3,6 +3,8 @@
 
 # AI for Therapeutic Discovery
 
+<p class="hero-tagline">We integrate artificial intelligence and high-throughput experimental science to discover safer, more effective therapeutics for intractable diseases.</p>
+
 We are an interdisciplinary research group at Nanyang Technological University, jointly based in the College of Computing and Data Science and the Lee Kong Chian School of Medicine. We develop AI methods for therapeutic discovery and precision medicine by connecting predictive modeling, generative design, optimization, and experimental feedback. Our work spans computational method development and experimental applications, with the goal of improving how therapeutic candidates are discovered, evaluated, and refined.
 
 {% include button.html link="team" text="Meet the team" icon="fa-solid fa-users" %}
