@@ -19,7 +19,12 @@ We welcome conversations with prospective students, researchers, and collaborato
 
 ## Join the lab
 
-We are interested in students and researchers who want to develop AI methods for therapeutic discovery, including predictive modeling, generative design, multimodal learning, optimization, and learning from experimental feedback. Please email Alvin with a short description of your research interests and relevant experience.
+We are interested in students and researchers who want to bridge computational and experimental therapeutic discovery:
+
+- **Computational / AI:** AI agents for biomedicine, generative design, multimodal learning, and reinforcement learning / optimization and simulation.
+- **Wet-Lab / Experimental:** RNA therapeutics, lipid nanoparticle (LNP) engineering, high-throughput screening assays, chemistry, and experimental validation.
+
+Please email Alvin with your CV and a short description of your research interests and relevant experience.
 
 {% endcapture %}
 
