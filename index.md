@@ -51,3 +51,14 @@ Researchers in AI and experimental science work together on shared biomedical pr
 
 {% include citation.html lookup="Towards Understanding Modality Interaction" style="rich" %}
 {% include citation.html lookup="Designing lipid nanoparticles" style="rich" %}
+
+{% include section.html %}
+
+<div class="join-us">
+  <h2>JOIN US!</h2>
+  <p>Interested in our science? We are always looking for motivated students and researchers across both AI and experimental tracks to join our mission.</p>
+  <div class="join-us-actions">
+    {% include button.html link="team" text="Meet the team" icon="fa-solid fa-users" %}
+    {% include button.html link="contact" text="Contact us" icon="fa-solid fa-envelope" %}
+  </div>
+</div>
