@@ -15,8 +15,6 @@ We welcome conversations with prospective students, researchers, and collaborato
 
 {% include section.html %}
 
-{% capture col1 %}
-
 ## Join the lab
 
 We are interested in students and researchers who want to bridge computational and experimental therapeutic discovery:
@@ -26,9 +24,7 @@ We are interested in students and researchers who want to bridge computational a
 
 Please email Alvin with your CV and a short description of your research interests and relevant experience.
 
-{% endcapture %}
-
-{% capture col2 %}
+{% include section.html %}
 
 ## Affiliation
 
@@ -36,7 +32,3 @@ Please email Alvin with your CV and a short description of your research interes
 - Lee Kong Chian School of Medicine
 
 **Address:** 50 Nanyang Avenue, Singapore 639798
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
