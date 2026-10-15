@@ -32,10 +32,10 @@ Please email Alvin with your CV and a short description of your research interes
 
 ## Affiliation
 
-- **Nanyang Technological University**
 - College of Computing and Data Science
 - Lee Kong Chian School of Medicine
-- 50 Nanyang Avenue, Singapore 639798
+
+**Address:** 50 Nanyang Avenue, Singapore 639798
 
 {% endcapture %}
 
