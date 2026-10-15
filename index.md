@@ -43,7 +43,7 @@ Researchers in AI and experimental science work together on shared biomedical pr
 
 {% endcapture %}
 
-{% include feature.html image="images/home/one-interdisciplinary-lab-cutout-concept.png" link="team" title="One interdisciplinary lab" text=team_text photo=true flat=true ratio="1448 / 1086" %}
+{% include feature.html image="images/home/group-photo.jpeg" link="team" title="One interdisciplinary lab" text=team_text photo=true flat=true ratio="4 / 3" %}
 
 {% include section.html %}
 

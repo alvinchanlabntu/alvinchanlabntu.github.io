@@ -35,3 +35,15 @@ html[data-dark="true"] footer.background:not([data-dark-fixed]) {
   opacity: 0.25;
   z-index: -1;
 }
+
+header.background:before,
+footer.background:before {
+  opacity: 0.4;
+  filter: brightness(1.15) saturate(0.75);
+}
+
+html[data-dark="true"] header.background:not([data-dark-fixed]):before,
+html[data-dark="true"] footer.background:not([data-dark-fixed]):before {
+  opacity: 0.2;
+  filter: brightness(1.25) saturate(0.65);
+}
