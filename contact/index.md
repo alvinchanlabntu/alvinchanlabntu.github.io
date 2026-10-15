@@ -7,11 +7,14 @@ nav:
 
 # Contact
 
-We welcome conversations with prospective students, researchers, and collaborators interested in AI for therapeutic discovery and Precision Medicine.
-
-{% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" %}
-{% include button.html type="home-page" text="Alvin Chan" link="/alvin-chan/" %}
-{% include button.html type="address" text="NTU Singapore" tooltip="Nanyang Technological University on Google Maps" link="https://www.google.com/maps/search/?api=1&query=Nanyang+Technological+University+Singapore" %}
+<div class="contact-intro">
+  <p>We welcome conversations with prospective students, researchers, and collaborators interested in AI for therapeutic discovery and Precision Medicine.</p>
+  <div class="contact-actions">
+    {% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" %}
+    {% include button.html type="home-page" text="Alvin Chan" link="/alvin-chan/" %}
+    {% include button.html type="address" text="NTU Singapore" tooltip="Nanyang Technological University on Google Maps" link="https://www.google.com/maps/search/?api=1&query=Nanyang+Technological+University+Singapore" %}
+  </div>
+</div>
 
 {% include section.html %}
 
