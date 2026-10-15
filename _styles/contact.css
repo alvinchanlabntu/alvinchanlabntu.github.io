@@ -1,0 +1,95 @@
+.contact-details {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.contact-details h2 {
+  margin-top: 0;
+}
+
+.contact-details p,
+.contact-details li {
+  text-align: left;
+}
+
+.contact-tracks,
+.affiliation-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 36px;
+  margin: 26px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-tracks li,
+.affiliation-list li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 18px;
+  line-height: 1.7;
+}
+
+.contact-tracks li:before,
+.affiliation-list li:before {
+  content: "";
+  position: absolute;
+  top: 0.72em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: var(--primary);
+}
+
+.contact-tracks strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact-tracks span {
+  color: var(--dark-gray);
+}
+
+.contact-invitation {
+  max-width: 760px;
+  margin-bottom: 0;
+}
+
+.contact-affiliation {
+  margin-top: 48px;
+  padding-top: 34px;
+  border-top: solid 1px var(--light-gray);
+}
+
+.contact-affiliation h2 {
+  border-bottom: none;
+}
+
+.affiliation-list {
+  margin-bottom: 22px;
+}
+
+.contact-address {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin: 0;
+}
+
+.contact-address strong {
+  color: var(--primary);
+}
+
+@media (max-width: 700px) {
+  .contact-tracks,
+  .affiliation-list {
+    grid-template-columns: 1fr;
+  }
+  .contact-affiliation {
+    margin-top: 38px;
+    padding-top: 28px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
