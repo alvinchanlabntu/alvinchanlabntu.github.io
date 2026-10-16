@@ -8,7 +8,7 @@ nav:
 # Contact
 
 <div class="contact-intro">
-  <p>We welcome conversations with prospective students, researchers, and collaborators interested in AI for therapeutic discovery and Precision Medicine.</p>
+  <p>We welcome conversations with prospective students, researchers, and collaborators interested in AI for therapeutic discovery and precision medicine.</p>
   <div class="contact-actions">
     {% include button.html type="email" text="guoweialvin.chan@ntu.edu.sg" link="guoweialvin.chan@ntu.edu.sg" %}
     {% include button.html type="home-page" text="Alvin Chan" link="/alvin-chan/" %}
