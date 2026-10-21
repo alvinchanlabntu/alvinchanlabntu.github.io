@@ -7,7 +7,7 @@ team: "Not applicable"
 homepage: "/alvin-chan/"
 affiliation: "Nanyang Technological University"
 fun_fact: >-
-  I love video games! These days you'll usually find me playing Brawl Stars with my wife.
+  I love skiing and video games!
 links:
   email: "guoweialvin.chan@ntu.edu.sg"
   home-page: "/alvin-chan/"
@@ -15,4 +15,4 @@ links:
 
 Alvin Chan is an Assistant Professor jointly appointed at the College of Computing and Data Science and the Lee Kong Chian School of Medicine at NTU. His research develops generative and multimodal AI for therapeutic discovery, precision medicine, nanomedicine, and RNA therapeutics.
 
-**Outside the lab:** I love video games! These days you'll usually find me playing Brawl Stars with my wife.
+**Outside the lab:** I love skiing and video games!
