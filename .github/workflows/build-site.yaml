@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   build-site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Debug dump
@@ -30,7 +30,7 @@ jobs:
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ruby-version: "3.1"
           bundler-cache: true
 
       - name: Get Pages url
